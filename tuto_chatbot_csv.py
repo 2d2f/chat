@@ -9,8 +9,7 @@ from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.vectorstores import FAISS
 import tempfile
 
-# Loop baneer
-st.image('https://raw.githubusercontent.com/2d2f/chat/main/loopGPT.png')
+
 
 user_api_key = st.sidebar.text_input(
     label="#### Your OpenAI API key",

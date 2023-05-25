@@ -89,7 +89,7 @@ class Utilities:
         """
         embeds = Embedder()
 
-        with st.spinner("Processing..."):
+        with st.spinner("Sit tight! I am working on it..."):
             uploaded_file.seek(0)
             file = uploaded_file.read()
             # Get the document embeddings for the uploaded file
