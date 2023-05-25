@@ -27,7 +27,8 @@ Utilities = utils_module.Utilities
 Sidebar = sidebar_module.Sidebar
 
 st.set_page_config(layout="wide", page_icon="💬", page_title="LoopGPT")
-
+# Displaying the image at the top of the page
+st.image('https://raw.githubusercontent.com/2d2f/chat/main/loopGPT.png')
 # Instantiate the main components
 layout, sidebar, utils = Layout(), Sidebar(), Utilities()
 
